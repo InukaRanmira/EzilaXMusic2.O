@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pyrogram.types import ChatMemberUpdated
 
-from EzilaXMusic2.O.function import *
+from EzilaXMusicV2.function import *
 
 
 @Client.on_chat_member_updated()
