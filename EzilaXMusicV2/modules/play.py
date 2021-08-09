@@ -33,23 +33,23 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from EzilaXMusic2.O.config import ARQ_API_KEY
-from EzilaXMusic2.O.config import BOT_NAME as bn
-from EzilaXMusic2.O.config import DURATION_LIMIT
-from EzilaXMusic2.O.config import UPDATES_CHANNEL as updateschannel
-from EzilaXMusic2.O.config import que
-from EzilaXMusic2.O.function.admins import admins as a
-from EzilaXMusic2.O.helpers.admins import get_administrators
-from EzilaXMusic2.O.helpers.channelmusic import get_chat_id
-from EzilaXMusic2.O.helpers.errors import DurationLimitError
-from EzilaXMusic2.O.helpers.decorators import errors
-from EzilaXMusic2.O.helpers.decorators import authorized_users_only
-from EzilaXMusic2.O.helpers.filters import command, other_filters
-from EzilaXMusic2.O.helpers.gets import get_file_name
-from EzilaXMusic2.O.services.callsmusic import callsmusic, queues
-from EzilaXMusic2.O.services.callsmusic.callsmusic import client as USER
-from EzilaXMusic2.O.services.converter.converter import convert
-from EzilaXMusic2.O.services.downloaders import youtube
+from EzilaXMusicV2.config import ARQ_API_KEY
+from EzilaXMusicV2.config import BOT_NAME as bn
+from EzilaXMusicV2.config import DURATION_LIMIT
+from EzilaXMusicV2.config import UPDATES_CHANNEL as updateschannel
+from EzilaXMusicV2.config import que
+from EzilaXMusicV2.function.admins import admins as a
+from EzilaXMusicV2.helpers.admins import get_administrators
+from EzilaXMusicV2.helpers.channelmusic import get_chat_id
+from EzilaXMusicV2.helpers.errors import DurationLimitError
+from EzilaXMusicV2.helpers.decorators import errors
+from EzilaXMusicV2.helpers.decorators import authorized_users_only
+from EzilaXMusicV2.helpers.filters import command, other_filters
+from EzilaXMusicV2.helpers.gets import get_file_name
+from EzilaXMusicV2.services.callsmusic import callsmusic, queues
+from EzilaXMusicV2.services.callsmusic.callsmusic import client as USER
+from EzilaXMusicV2.services.converter.converter import convert
+from EzilaXMusicV2.services.downloaders import youtube
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
