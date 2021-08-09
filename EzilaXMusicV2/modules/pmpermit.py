@@ -16,10 +16,10 @@
 
 from pyrogram import Client
 import asyncio
-from EzilaXMusic2.O.config import SUDO_USERS, PMPERMIT
+from EzilaXMusicV2.config import SUDO_USERS, PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
-from EzilaXMusic2.O.services.callsmusic.callsmusic import client as USER
+from EzilaXMusicV2.services.callsmusic.callsmusic import client as USER
 
 PMSET =True
 pchats = []
