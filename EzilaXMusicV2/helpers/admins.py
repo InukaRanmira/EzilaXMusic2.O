@@ -19,8 +19,8 @@ from typing import List
 
 from pyrogram.types import Chat, User
 
-from EzilaXMusic2.O.function.admins import get as gett
-from EzilaXMusic2.O.function.admins import set
+from EzilaXMusicV2.function.admins import get as gett
+from EzilaXMusicV2.function.admins import set
 
 
 async def get_administrators(chat: Chat) -> List[User]:
