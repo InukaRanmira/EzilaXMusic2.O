@@ -35,8 +35,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from EzilaXMusic2.O.config import DURATION_LIMIT
-from EzilaXMusic2.O.modules.play import arq
+from EzilaXMusicV2.config import DURATION_LIMIT
+from EzilaXMusicV2.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
