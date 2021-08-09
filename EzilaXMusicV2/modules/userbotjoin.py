@@ -18,9 +18,9 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from EzilaXMusic2.O.helpers.decorators import authorized_users_only, errors
-from EzilaXMusic2.O.services.callsmusic.callsmusic import client as USER
-from EzilaXMusic2.O.config import SUDO_USERS
+from EzilaXMusicV2.helpers.decorators import authorized_users_only, errors
+from EzilaXMusicV2.services.callsmusic.callsmusic import client as USER
+from EzilaXMusicV2.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
@@ -38,7 +38,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "EzilaXMusic"
 
     try:
         await USER.join_chat(invitelink)
