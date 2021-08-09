@@ -115,4 +115,3 @@ EzilaXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/
 #### Contribtors
 - [InukaASiTH](https://github.com/InukaAsith)
 - [Rojserbest](http://github.com/rojserbes)
-- [Original Repo owners](https://github.com/suprojects/CallsMusic)
