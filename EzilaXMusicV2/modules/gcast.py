@@ -18,7 +18,7 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from EzilaXMusic2.O.config import SUDO_USERS
+from EzilaXMusicV2.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast"]))
 async def bye(client, message):
