@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from EzilaXMusic2.O.config import SUDO_USERS
-from EzilaXMusic2.O.helpers.admins import get_administrators
+from EzilaXMusicV2.config import SUDO_USERS
+from EzilaXMusicV2.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:
