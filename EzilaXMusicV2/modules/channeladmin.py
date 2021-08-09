@@ -16,15 +16,15 @@
 
 
 from asyncio.queues import QueueEmpty
-from EzilaXMusic2.O.config import que
+from EzilaXMusicV2.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from EzilaXMusic2.O.function.admins import set
-from EzilaXMusic2.O.helpers.channelmusic import get_chat_id
-from EzilaXMusic2.O.helpers.decorators import authorized_users_only, errors
-from EzilaXMusic2.O.helpers.filters import command, other_filters
-from EzilaXMusic2.O.services.callsmusic import callsmusic
+from EzilaXMusicV2.function.admins import set
+from EzilaXMusicV2.helpers.channelmusic import get_chat_id
+from EzilaXMusicV2.helpers.decorators import authorized_users_only, errors
+from EzilaXMusicV2.helpers.filters import command, other_filters
+from EzilaXMusicV2.services.callsmusic import callsmusic
 
 
 
