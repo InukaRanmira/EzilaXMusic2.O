@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: python3 -m EzilaXMusic2.O
+  worker: python3 -m EzilaXMusicV2
