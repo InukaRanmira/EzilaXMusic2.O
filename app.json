@@ -39,7 +39,7 @@
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
-      "value": "ECXXEC-THHXJK-JCGEHN-BOYIRP-ARQ"
+      "value": "PPVHBY-JUOKTI-DFHSQK-VQXCFG-ARQ"
     },    
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
